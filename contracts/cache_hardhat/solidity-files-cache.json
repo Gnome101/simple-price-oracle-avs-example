@@ -1,0 +1,118 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/thegnome/cryptoTIme/simple-price-oracle-avs-example/contracts/src/IAttestationCenter.sol": {
+      "lastModificationDate": 1740651368355,
+      "contentHash": "8823eec55b6daad48ed3dbbfe7ddb05f",
+      "sourceName": "src/IAttestationCenter.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.20"
+      ],
+      "artifacts": [
+        "IAttestationCenter"
+      ]
+    },
+    "/home/thegnome/cryptoTIme/simple-price-oracle-avs-example/contracts/src/SecretVoting.sol": {
+      "lastModificationDate": 1740711245341,
+      "contentHash": "15ea01985e8775c95aa511ff9f9bb092",
+      "sourceName": "src/SecretVoting.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAvsLogic.sol",
+        "./IAttestationCenter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SecretVoting"
+      ]
+    },
+    "/home/thegnome/cryptoTIme/simple-price-oracle-avs-example/contracts/src/IAvsLogic.sol": {
+      "lastModificationDate": 1740651374575,
+      "contentHash": "6d9635a54a0444059beb489bad9e4350",
+      "sourceName": "src/IAvsLogic.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAttestationCenter.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.20"
+      ],
+      "artifacts": [
+        "IAvsLogic"
+      ]
+    }
+  }
+}
